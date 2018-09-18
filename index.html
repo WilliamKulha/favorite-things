@@ -18,6 +18,48 @@
           <h3>Favorite Things Listerizer</h3>
         </div>
         <div class="well bg-darkerish">
+          <form id="userInput">
+            <fieldset>
+              <div class="form-group">
+                <label for="favorite-color">What's your favorite color?
+                  <input type="text" id ="favorite-color" class="form-control" placeholder="Red">
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="favorite-season">What's your favorite season?
+                  <input type ="text" id="favorite-season" class="form-control" placeholder="Spring">
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="favorite-book">What's your favorite book?
+                  <input type="text" id="favorite-book" class="form-control" placeholder="Inherent Vice">
+                </label>
+              </div>
+              <div class="form-group">
+                <label for="favorite-movie">What's your favorite movie?
+                  <input type="text" id="favorite-movie" class="form-control" placeholder="Avengers">
+                </label>
+              </div>
+              <div class="form-group">
+                <label for ="favorite-name">What's your favorite name?
+                  <input type="text" id="favorite-name" class="form-control" placeholder="Eliot">
+                </label>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-lg btn-success">Listerize me!</button>
+              </div>
+            </fieldset>
+          </form>
+        </div>
+      </div>
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">Listerized Results</h3>
+        </div>
+        <div class="panel-body">
+          <ul id="listerized">
+
+          </ul>
         </div>
       </div>
     </div>
